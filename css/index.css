@@ -180,6 +180,10 @@ nav {
   margin: 0 auto;
 }
 
+.container .about-page {
+  border: 1px dotted black;
+}
+
 .top-content {
   display: flex;
   flex-wrap: wrap;

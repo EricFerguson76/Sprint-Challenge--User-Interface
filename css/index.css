@@ -356,4 +356,6 @@ footer nav a {
 }
 button {
   border-radius: 12px;
+  color: black;
+  background: grey;
 }

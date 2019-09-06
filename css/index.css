@@ -158,14 +158,13 @@ header {
 }
 
 nav {
-  display: flex;
   width: 800px;
   margin: auto;
 }
 
-.home nav {
-  display: flex;
-  justify-content: space-between;
+header nav a {
+  color: black;
+  text-decoration: none;
 }
 
 .picture {
@@ -178,10 +177,6 @@ nav {
 .container {
   width: 800px;
   margin: 0 auto;
-}
-
-.container .about-page {
-  border: 1px dotted black;
 }
 
 .top-content {
@@ -214,16 +209,6 @@ nav {
   justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
-  width: 12.5%;
-  height: 100px;
-  background: black;
-  margin: 20px 2.5%;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 .middle-content .boxes .box1 {
   width: 12.5%;
   height: 100px;
@@ -234,6 +219,7 @@ nav {
   align-items: center;
   justify-content: center;
 }
+
 .middle-content .boxes .box2 {
   width: 12.5%;
   height: 100px;
@@ -324,6 +310,7 @@ nav {
   align-items: center;
   justify-content: center;
 }
+
 .bottom-content {
   display: flex;
   margin: 0 2% 20px;
@@ -355,4 +342,18 @@ footer nav {
 footer nav a {
   color: white;
   text-decoration: none;
+}
+
+.middle-content .boxes .box {
+  background: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  width: 30%;
+  padding: 3px;
+}
+button {
+  border-radius: 12px;
 }
